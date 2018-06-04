@@ -1,0 +1,48 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+    background: #c1bdba;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+*[role="form"] {
+   background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  color: #ffffff;
+}
+
+*[role="form"] h2 {
+	 color: #ffffff;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+
+label.active {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+  
+}
+label.active .req {
+  opacity: 0;
+}
+a {
+  text-decoration: none;
+  color: #1ab188;
+  transition: .5s ease;
+}
+a:hover {
+  color: #179b77;
+}

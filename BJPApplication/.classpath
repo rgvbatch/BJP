@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/apache-tomcat-8.5.0/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/apache-tomcat-8.5.0/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/Compressed/javamail-1_2/javamail-1.2/imap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/Compressed/javamail-1_2/javamail-1.2/mail.jar" sourcepath="/emailsending/build/classes/emailsending"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/Compressed/javamail-1_2/javamail-1.2/pop3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/Compressed/javamail-1_2/javamail-1.2/smtp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/Compressed/javamail-1_2/javamail-1.2/mailapi.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
